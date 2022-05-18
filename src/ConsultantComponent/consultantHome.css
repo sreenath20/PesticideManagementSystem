@@ -1,0 +1,34 @@
+.pestTable{
+    overflow-y:scroll;
+height:200px;
+width: fit-content;
+}
+@media only screen and (max-width:800px) {
+    #no-more-tables1 tbody,
+    #no-more-tables1 tr,
+    #no-more-tables1 td {
+        display: block;
+    }
+    #no-more-tables1 thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    #no-more-tables1 td {
+        position: relative;
+        padding-left: 50%;
+        border: none;
+        /* border-bottom: 1px solid #eee; */
+    }
+    #no-more-tables1 td:before {
+        content: attr(data-title);
+        position: absolute;
+        left: 1px;
+        font-weight: bold;
+    }
+    #no-more-tables1 tr {
+        /* border-bottom: 1px solid #ccc; */
+        
+        padding-bottom: 2px;
+    }
+}

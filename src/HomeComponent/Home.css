@@ -1,0 +1,92 @@
+.start {
+    text-align: center;
+    color: #090c00;
+    font-size:x-large;
+    padding-top: 20px;
+  }
+  
+  .welcome{
+    padding-top: 15px;
+  }
+
+  .last_Login{
+    float: right;
+  }
+
+  .Menu{
+      background-color: #8b2121d3;
+     box-shadow: 10px 10px 5px rgb(90, 89, 89);
+  }
+  
+.navbar-header{
+  height: 50px;
+}
+
+
+  .buttonStyle{
+      background-color:transparent;
+     color: azure;
+      border:none;
+     
+  }
+
+ .buttonStyle:hover{
+   
+    color: rgb(255, 255, 255);
+   
+ }
+ .buttonStyle:focus{
+  background-color:transparent;
+   
+    color: rgb(255, 255, 255);
+ }
+ .buttonStyle:active{
+  background-color:transparent;
+   
+    color: rgb(255, 255, 255);
+ }
+ .btn-change:hover{
+  -webkit-transform: scale(1.1);
+ }
+
+ /* 48em = 768px */
+@media (min-width: 48em) {
+  .w2{
+    display: none;
+    visibility: hidden;
+  }  
+}
+
+@media (max-width: 48em) {
+  .w1{
+    display: none;
+    visibility: hidden;
+  }
+ 
+  
+}
+.scale-up-center:hover {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+ @-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
